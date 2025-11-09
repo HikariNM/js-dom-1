@@ -1,6 +1,6 @@
 function switchOnAndOff() {
-    const bulb = document.getElementById('ligth');
-    const btn = document.getElementById('switchBtn')
+    const bulb = document.getElementById('light');
+    const btn = document.getElementById('switchBtn');
 
     if (bulb.src.includes('white_lamp')) {
         bulb.src = './img/yellow_lamp.png';
@@ -15,7 +15,7 @@ function switchOnAndOff() {
 
 }
 
-document.getElementById('switchBtn').addEventListener('click', switchOnAndOff)
+document.getElementById('switchBtn').addEventListener('click', switchOnAndOff);
 
 document.getElementById('ico').addEventListener('mouseover', () => {
     document.getElementById('ico').src = './img/yellow_lamp.png';
